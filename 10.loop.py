@@ -77,3 +77,54 @@ print("this: ", [0, 3, 5] in arr)
 a = (0, 1, 2, 3)
 for x in a:
     print(x)
+
+# %%
+
+"""
+while loop
+무한 반복 주의
+"""
+
+# i = 0
+# cnt = 100
+# while i < 10:
+#     print(i)
+#     cnt -= 1
+#     if cnt == 0:
+#         break
+
+# while True:
+#     menu = input("좋아하는 메뉴를 입력하세요.")
+#     if menu == "김치":
+#         print("good")
+#     elif menu == "나가자":
+#         print("나갔다.")
+#         break
+#     else:
+#         print("bad")
+
+lst = list(range(100))
+
+while lst:
+    a = lst.pop()
+    print(a)
+
+# %%
+
+"""
+for loop else
+
+for 반복문이 정상적으로 종료되면
+else 블록이 실행된다.
+"""
+
+i = 0
+while i < 10:
+    print(i)
+    if i == 9:
+        break
+    i += 1
+else:
+    print("here")
+
+# %%
