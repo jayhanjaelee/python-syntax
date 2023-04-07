@@ -41,8 +41,8 @@ def f(x, y, z, w):
 
 x = ("1", "2", "3", "4")
 
-# y = [*(map(int, x))]
-# y = list((map(int, x)))
+y = [*(map(int, x))]
+y = list((map(int, x)))
 print("y: ", y)
 
 print(f(1, *a))
